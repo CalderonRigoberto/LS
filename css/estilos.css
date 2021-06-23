@@ -685,7 +685,7 @@ button {
     .enlaces-header {
         position: fixed;
         background: rgb(2, 0, 36);
-        background: linear-gradient(72deg, rgba(2, 0, 36, 1) 0%, rgba(15, 135, 61, 1) 100%, rgba(0, 255, 38, 1) 100%, rgba(0, 206, 38, 1) 100%);
+       background: linear-gradient(72deg, rgba(2, 0, 36, 1) 0%, rgb(206, 54, 193) 100%, rgb(234, 157, 253) 100%, rgb(147, 242, 248) 100%);
         top: 0;
         right: 0;
         width: 100%;
