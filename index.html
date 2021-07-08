@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
     <script src="https://kit.fontawesome.com/5fd10f99c4.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Sereny</title>
@@ -74,14 +74,14 @@
             <h1>Necesitas volver a ser tú? La respuesta esta en mis manos</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestias tempora iste aperiam v</p>
             <a href="# ">Contactar</a>
-            <!-- Messenger plugin de chat Code -->
+            
+        </section>
+        <img src="img/undraw_current_location_rypt.svg" alt=" ">
+        <!-- Messenger plugin de chat Code -->
             <div id="fb-root"></div>
             <!-- Your plugin de chat code -->
             <div id="fb-customer-chat" class="fb-customerchat">
             </div>
-        </section>
-        <img src="img/undraw_current_location_rypt.svg" alt=" ">
-
     </section>
     <section class="results " data-aos="fade-right " data-aos-duration="1000 ">
         <div class="contenedor1 content-results ">
@@ -131,6 +131,23 @@
         <img src="img/undraw_Group_chat_re_frmo.svg " alt=" ">
 
 
+    </section>
+    <section class="contenedor1" data-aos="fade-left" data-aos-duration="1000">
+        <div class="contact-form">
+            <h2 class="titulo">Obtener código</h2>
+            <form action="enviar.php" method="POST">
+                <div class="txtb">
+                    <label>Nombre completo</label>
+                    <input type="text" name="nombreCliente" value="" placeholder="Nombre " required>
+                </div>
+                <div class="txtb">
+                    <label>Email</label>
+                    <input type="email" name="emailCliente" value="" placeholder="example@gmail.com" required>
+                </div>
+                <input class="btEnviar" type="submit" value="enviar">
+
+            </form>
+        </div>
     </section>
     <footer>
         <div class="partFooter ">
