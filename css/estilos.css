@@ -499,9 +499,11 @@ button {
         width: 400px;
     }
     footer {
-        justify-content: space-evenly;
+        display: flex;
+        justify-content: center;
     }
     .partFooter {
+        
         width: 40%;
         margin-bottom: 40px;
     }
